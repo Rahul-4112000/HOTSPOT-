@@ -4,6 +4,7 @@ import { BiCircle } from 'react-icons/bi';
 import { TiDelete } from 'react-icons/ti'
 
 function CompletedTask({ completedTask, removeFromCompletedTask, removeCircleFill, deletefromCompletedTask, deleteIconColor,  renameCompletedTask, hideRenamingCompletedTask }) {
+    console.log('latest scan');
     return (
         completedTask.map((singleTask, index) =>
             
